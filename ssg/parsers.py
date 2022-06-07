@@ -3,6 +3,7 @@ from pathlib import Path
 import shutil
 
 class Parser:
+    """Parser class."""
     extensions: List[str] = []
 
     def valid_extension(self, extension):
