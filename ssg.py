@@ -8,7 +8,7 @@ def main(source = 'content', dest = 'dist'):
               'dest': dest, 
               'parsers': [ssg.parsers.ResourceParser(), 
                           ssg.parsers.MarkdownParser(),
-                          ssg.parsers.RestrutedTextParser()]}
+                          ssg.parsers.RestructuredTextParser()]}
     s = Site(**config).build()
 
 
